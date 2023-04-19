@@ -1,0 +1,20 @@
+(base) E:\CDACHPCSA\Python Lab>C:/ProgramData/Anaconda3/python.exe "e:/CDACHPCSA/Python Lab/Function/main_function_invocation.py"
+Please enter First number:10
+Please enter Second number:20
+The Addition of the numbers is  30
+The Square of the number is  100
+The exponenation of the numbers is  100000000000000000000
+Please enter a String: bharat
+Upper case of the string is  BHARAT
+Pleased enter the existing_salary 900
+Pleased enter the percentage15
+The incremented salary is  1035.0
+Pleased enter height in cms 182
+Height in feet is  5.97
+Pleased enter no of dollars 5
+Amount is INR is  410
+Pleased enter the source Baramati
+Pleased enter the destination Jejuri
+Pleased enter the fare 200
+Pleased enter the discount_rate in percentage 15
+Fare fromBaramati to Jejuri is 170.0 INR with has a applied discount of 15.0%
