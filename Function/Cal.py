@@ -1,13 +1,16 @@
+def my_addition(first_num , second_num):
+    return  first_num+ second_num
+
+def my_square(first_num):
+    return first_num**2
+
+def my_exponentation(first_num , second_num):
+    return first_num**second_num
 
 
-first_num = int (input("Please enter First Number : "))
-second_num = int (input("Pelase enter Second number : "))
+first_num = int(input("Please enter First number:"))
+second_num = int(input("Please enter Second number:"))
 
-returned_value = my_addition( first_num,second_num)
-print("The Addition of the numbers is ", returned_value)
-
-returned_value = my_square(first_num)
-print("The Squrare of the number is ",returned_value)
- 
- returned_value = my_exponenation(first_num)
-print("The Squrare of the number is ",returned_value)
+print("The Addition of the numbers is ", str(my_addition(first_num,second_num)))
+print("First number squared is  ", str(my_square(first_num)))
+print("First number raised to number second number is  ", str(my_exponentation(first_num , second_num)))
