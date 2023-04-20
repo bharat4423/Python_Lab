@@ -13,7 +13,7 @@
     
     
 
-def fibonacci(num):
+def fibonacci(num, i, j):
     num = i + j
     i = j
     j = num
@@ -22,7 +22,7 @@ num = int(input("Enter the number : "))
 i, j = -1, 1
 print("Fibonacci Series:", i, j, end=" ")
 for i in range(2, num):
-    fib = fibonacci(num)
+    fib = fibonacci(num, i,j )
 print(fib, end=" ")
     
     
