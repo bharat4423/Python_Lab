@@ -19,7 +19,7 @@ def fibonacci(num):
     j = num
           
 num = int(input("Enter the number : "))
-i, j = 0, 1
+i, j = -1, 1
 print("Fibonacci Series:", i, j, end=" ")
 for i in range(2, num):
     fib = fibonacci(num)
