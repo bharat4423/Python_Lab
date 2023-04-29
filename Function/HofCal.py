@@ -1,3 +1,6 @@
+def hof(func):
+    return func()
+
 def my_addition():
     first_num = int(input("Please enter First number:"))
     second_num = int(input("Please enter Second number:"))
@@ -27,18 +30,26 @@ while(True):
         
         if choice == 1:
   
-            print("The Addition of the numbers is ", str(my_addition()))
+            print("The Addition of the numbers is ", hof(my_addition))
         elif choice == 2:
             
-            print("First number squared is  ", str(my_square()))
+            print("First number squared is  ", hof(my_square))
         elif choice == 3:
             
-            print("First number raised to number second number is  ", str(my_exponentation()))
+            print("First number raised to number second number is  ", hof(my_exponentation))
         elif choice == 4:
             break
-        else :
-            print( "Invalid Input , Please Try Again !!!! ")
-
-
-
+        
+        
+        while(True):
+            choice = input("Do you want to continue?").lower()
+            if choice != 'n' and choice != 'y':                                
+        
+               print( "Invalid Input , Please Try Again !!!! ")
+               
+               continue
+            else :
+                break 
+        if choice == 'n':
+            break
 
