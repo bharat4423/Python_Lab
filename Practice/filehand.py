@@ -8,5 +8,11 @@
 # for each in f:
 #     print(f.write(),end="")
 
-f = open("file2.txt","r")
-print(f.readline(),end="")
+# f = open("file2.txt","r")
+# print(f.readline(),end="")
+
+# Python code to create a file
+file = open('geek.txt','w')
+file.write("This is the write command \n")
+file.write("It allows us to write in a particular file")
+file.close()
